@@ -93,7 +93,7 @@ function tapLove(id) {
       if (!loveMsg) return console.error('Không tìm thấy element loveMsg!');
 
       typeWriterEffect(
-        `Chúc ${userName} của anh 1/6 thật vui vẻ như một đứa trẻ, nhưng được anh yêu như một nữ hoàng 👑. Chúc bé nhỏ ngày càng xinh đẹp và dễ thương>> 💘`,
+        `Chúc ${userName} của anh 1/6 thật vui vẻ như một đứa trẻ. Chúc bé nhỏ ngày càng xinh đẹp và dễ thương>> 💘`,
         'loveMsg',
         () => {
           const fromTag = document.createElement("div");
